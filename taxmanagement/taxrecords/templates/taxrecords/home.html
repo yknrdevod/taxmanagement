@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tax Records</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Records</h1>
+        <ul>
+            <li><a href="{% url 'create' %}">Create</a></li>
+            <li><a href="{% url 'read' %}">Read</a></li>
+            <li><a href="{% url 'bulk_import' %}">Bulk Import</a></li>
+        </ul>
+    </div>
+</body>
+</html>
